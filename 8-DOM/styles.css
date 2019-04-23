@@ -1,8 +1,13 @@
-a
+nav a
 {
     display: block;
-    height: 100px; 
-    width: 30px;
+    background-color: blueviolet;
     padding: 10px;
-    
+    width: 30px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+nav a:last-child
+{
+    margin-bottom: 0;
 }
