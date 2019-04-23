@@ -1,7 +1,14 @@
-div
+.myTable
 {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+    display: table;
+}
+
+.myTable .MyTr
+{
+display: table-row;
+}
+
+.myTable .MyTr .Mytd 
+{
+    display: table-cell;
 }
