@@ -1,0 +1,44 @@
+div, header, footer{
+    background: blue;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+header{
+    width : 650px;
+}
+
+div{
+    width : 300px;
+}
+
+.col-1
+{
+float: left;
+
+}
+
+.col-2{
+float: right;
+
+}
+
+.col-3{
+
+clear: both;
+margin: auto;
+margin-bottom: 30px;
+width : 400px;
+}
+
+footer{
+
+    width : 650px;
+}
+
+body{
+    width : 650px;
+    font-size: 60px;
+    color : white;
+    
+}
