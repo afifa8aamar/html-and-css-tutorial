@@ -1,20 +1,32 @@
 section
 {
-    position: relative;
-    background: blue;
-    width: 600px;
-    height: 600px;
-    margin: auto;
+display: inline-flex;
 }
 
-section div{
-    position: absolute;
-    width: 100px;
+
+.badge{
+    
+    background:#e6e8ed;
     height: 50px;
-    background: white;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%)
-
+    width: 50px;
+    margin-top: 20px;
+    position: relative;
+    border-radius: 3px;
+    margin-right: 10px;
 }
 
+.badge .label
+{
+    position: absolute;
+    top:0;
+    background: red;
+    min-width: 14px;
+    min-height: 12px;
+    border: solid 1px white;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 0 3px;
+    left: 35px;
+    top :-7px;
+}
