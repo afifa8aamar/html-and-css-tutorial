@@ -1,18 +1,30 @@
-section
+.divider
 {
-    position: absolute;
-    border: 1px solid gray;
-    width : 600px;
-    height: 200px;
+    position: relative;
+    height: 100px;
+    
 }
 
-div 
+
+.divider::before
 {
     position: absolute;
-    text-align: left;
-    border: 1px solid gray;
-    width : 400px;
-    height: 130px;
-    top: 30px;
-    right: 20px;
+    top: 50%;
+    left : 0;
+    transform: translateY(-50%);
+content:'';
+display: block;
+width : 1000px;
+height: 1px;
+background: black;
+}
+
+span
+{
+    position: absolute;
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%, -50%); 
+    background: white;
+    padding: 0 10px;
 }
