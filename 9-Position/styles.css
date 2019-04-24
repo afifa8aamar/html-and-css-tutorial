@@ -1,32 +1,18 @@
 section
 {
-display: inline-flex;
+    position: absolute;
+    border: 1px solid gray;
+    width : 600px;
+    height: 200px;
 }
 
-
-.badge{
-    
-    background:#e6e8ed;
-    height: 50px;
-    width: 50px;
-    margin-top: 20px;
-    position: relative;
-    border-radius: 3px;
-    margin-right: 10px;
-}
-
-.badge .label
+div 
 {
     position: absolute;
-    top:0;
-    background: red;
-    min-width: 14px;
-    min-height: 12px;
-    border: solid 1px white;
-    color: white;
-    border-radius: 20px;
-    text-align: center;
-    padding: 0 3px;
-    left: 35px;
-    top :-7px;
+    text-align: left;
+    border: 1px solid gray;
+    width : 400px;
+    height: 130px;
+    top: 30px;
+    right: 20px;
 }
