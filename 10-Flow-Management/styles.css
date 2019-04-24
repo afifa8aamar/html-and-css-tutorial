@@ -5,39 +5,41 @@ div, header, footer{
 }
 
 header{
-    width : 650px;
+    width : 700px;
 }
 
 div{
-    width : 300px;
+    width : 200px;
+    display: block;
 }
 
 .col-1
 {
 float: left;
-
+margin-right: 50px;
 }
 
 .col-2{
-float: right;
+float: left;
 
 }
 
 .col-3{
 
-clear: both;
+float: right;
 margin: auto;
 margin-bottom: 30px;
-width : 400px;
 }
 
 footer{
 
-    width : 650px;
+    width : 700px;
+    clear: both;
 }
 
 body{
-    width : 650px;
+    
+    width : 700px;
     font-size: 60px;
     color : white;
     
