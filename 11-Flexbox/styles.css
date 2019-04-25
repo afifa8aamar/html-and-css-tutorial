@@ -12,19 +12,6 @@ main {
 
 }
 
-header {
-    width: 100%;
-    background: grey;
-    height: 150px;
-    margin-bottom: 50px;
-}
-
-footer {
-    width: 100%;
-    background: grey;
-    height: 150px;
-}
-
 .row
 {
     display:flex;
@@ -32,11 +19,12 @@ footer {
     margin-bottom: 30px;
 }
 
-.row div{
-
+.row>div{
     background: grey;
+}
 
-
+.row>div:last-child{
+    margin-right: 0;
 }
 
 .col-1, .col-2, .col-3
@@ -48,10 +36,14 @@ width: 270px;
 
 
 
-.col-1, .col-2, .col-3{
+.col-1{
     flex-grow: 1;
 }
-
-.col-1, .col-2{
-    margin-right: 50px;
+.col-2{
+    flex-grow: 2;
 }
+.col-3{
+    flex-grow: 3;
+}
+
+
