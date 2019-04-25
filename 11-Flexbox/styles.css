@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 100%;
+    background: grey;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%;
+    background: grey;
+    height: 150px;
+}
+
+.row
+{
+    display:flex;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.row div{
+
+    background: grey;
+
+
+}
+
+.col-1, .col-2, .col-3
+{
+background: gray;
+height: 150px;
+width: 270px;
+}
+
+.row-2
+{
+    justify-content: center;
+}
+
+.col-3{
+    width: 70%;
+}
+
+
+.col-1, .col-2{
+    flex-grow: 1;
+}
+
+.col-1{
+    margin-right: 50px;
+}
