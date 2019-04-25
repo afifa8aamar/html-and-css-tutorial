@@ -1,7 +1,20 @@
 body
 {
-    width: 700px;
+    width: 600px;
+    box-sizing: border-box;
 
+}
+
+.row-1
+{
+float: left;
+width: 350px;
+background: none;
+}
+.row-2
+{
+    float: right;
+    height: 110px;
 }
 
 div{
@@ -10,57 +23,50 @@ div{
     margin-bottom: 10px;
     font-size: 30px;
     color: white;
+    
 }
 
-.col-2, .col-3, .col-4
+.col-1
 {
-    width: 200px;
+    width: 600px;
 }
-
 .col-2
 {
     float: left;
-    margin-right: 50px;
+    width: 160px;
+    
 }
-
 .col-3
 {
-float: left;
-
-
+    
+    float: right;
+    width: 160px;
+    margin-left: 20px;
 }
-
 .col-4
 {
-    float: right;
+    clear: both;
 }
 
 .col-5
 {
-    clear: both;
-    width: 450px;
-    margin-right: 50px;
-    float: left;
-
+    width: 220px;
 }
 .col-6
 {
-    float: right;
+    margin-top: 10px;
+    clear: both;
+    float: left;
     width: 200px;
 }
 .col-7
 {
-    clear: both;
-    width: 200px;
-    margin-right: 50px;
-    float: left;
+    margin-top: 10px;
+    width: 370px;
+    float: right;
 }
 .col-8
 {
-    float: right;
-    width: 450px;
-}
-.col-9
-{
     clear: both;
+    width: 600px;
 }
