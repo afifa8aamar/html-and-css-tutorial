@@ -29,8 +29,8 @@ article .poster
     margin-bottom: 14px;
 }
 
-article .header h1{
-    font-family: 'Lobster';
+article header h1{
+    font-family: 'Lobster Regular';
     font-size: 24px;
     line-height: 30px;
     color:#21C2F8;
