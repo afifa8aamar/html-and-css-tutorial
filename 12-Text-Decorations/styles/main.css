@@ -45,6 +45,7 @@ article header p{
     font-size: 14px;
     line-height: 30px;
     color: #A1B1BC;
+    margin-top: 4px;
 }
 
 article header p span::after{
@@ -79,4 +80,8 @@ article .content a {
     text-decoration: none;
     display: inline-block;
 
+}
+
+article .content header p {
+    margin-bottom: 12px;
 }
