@@ -9,7 +9,6 @@ body {
     -webkit-font-smoothing: antialiased;
     font-family: 'PT Sans';
     margin: 5px;
-    width: 1920px; /*remove*/
 }
 
 footer {
@@ -33,7 +32,7 @@ footer .wrap {
 footer .top .wrap>div {
     width: 270px;
     height: 270px;
-    margin-right: 30px;
+    margin-right: 31px;
     margin-top: 97px;
 }
 
