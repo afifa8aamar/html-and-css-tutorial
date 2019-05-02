@@ -62,7 +62,7 @@ footer .top .wrap ul li {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    border-bottom: 1px solid #707070;
+    border-bottom: 0.1px solid #707070;
     margin-top: 17px;
     
 }
@@ -85,9 +85,13 @@ footer .top .wrap div ul li a:hover {
 }
 
 footer .top .wrap div ul li span {
+    font-family: 'PT-Sans';
     color: #A1B1BC;
-    font-size: 14;
-    padding-top: 4px;
+    font-size: 14 !important;
+    font-weight: 100 !important;
+    margin-top: 3px;
+    word-spacing: -1px;
+    letter-spacing: -0.7px;
 }
 
 
@@ -100,8 +104,10 @@ footer .top .wrap div p {
     margin-left: 2px;
 }
 footer .top .wrap div p span {
+    margin-top: -1px;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
+    letter-spacing: -0.04px;
 }
 footer .top .wrap div p a{
     color: #A1B1BC;
@@ -123,6 +129,8 @@ footer .bottom {
 
 footer .bottom .wrap span {
     color: #A1B1BC;
+    word-spacing: -2.6px;
+    letter-spacing: -0.1px;
 }
 
 footer .bottom .wrap span a {
@@ -133,3 +141,4 @@ footer .bottom .wrap span a {
 footer .bottom .wrap span a:hover {
     color: #1ABC9C;
 }
+

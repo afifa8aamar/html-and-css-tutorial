@@ -9,7 +9,7 @@
 
 /* PT Sans*/
 @font-face {
-  font-family: 'PT Sans';
+  font-family: 'PT-Sans';
   font-style: normal;
   font-weight: 400;
   src: local('PT Sans'), local('PTSans-Regular'), url(../fonts/PT\ Sans.woff2) format('woff2');
