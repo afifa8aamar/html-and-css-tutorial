@@ -6,28 +6,40 @@
 
 section{
     width: 600px;
-    height: 600px;
+    height: 250px;
     margin: 50px auto 0;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 2px;
+    grid-template-areas: "header header header "
+                         "menu menu sidebar"
+                         "con-left con-right sidebar"
+                         "center-bottom footer footer";                    
 }
 
 section div {
     background-color: aqua;
 }
 
-
-
-.row-1{
-    grid-row: span 2;
+.header {
+    grid-area: header;
 }
-.col-1{
-    grid-column: span 1;
+.menu{
+    grid-area: menu;
 }
-.col-2{
-    grid-column: span 2;
+.sidebar{
+grid-area: sidebar;
 }
 
-.col-3{
-    grid-column: span 3;
+.con-left{
+    grid-area: con-left;
+}
+.con-right{
+    grid-area: con-right;
+}
+
+.footer{
+    grid-area: footer;
+}
+.center-bottom{
+    grid-area: center-bottom;
 }
