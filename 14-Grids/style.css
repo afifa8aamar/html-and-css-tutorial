@@ -16,12 +16,13 @@ section div {
     background-color: aqua;
 }
 
-.header{
-    grid-column: 1/4;
+.col-1{
+    grid-column: span 1;
+}
+.col-2{
+    grid-column: span 2;
 }
 
-
-
-.footer{
-    grid-column: 1/4;
+.col-3{
+    grid-column: span 3;
 }
